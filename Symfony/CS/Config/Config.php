@@ -160,10 +160,7 @@ class Config implements ConfigInterface
     }
 
     /**
-     * Sets the path to the cache file.
-     *
-     * @param string $cacheFile
-     * @return self
+     * {@inheritdoc}
      */
     public function setCacheFile($cacheFile)
     {
@@ -173,9 +170,7 @@ class Config implements ConfigInterface
     }
 
     /**
-     * Returns the path to the cache file.
-     *
-     * @return string
+     * {@inheritdoc}
      */
     public function getCacheFile()
     {

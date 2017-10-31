@@ -50,7 +50,6 @@ final class ProjectCodeTest extends TestCase
         \PhpCsFixer\FixerConfiguration\FixerOptionValidatorGenerator::class,
         \PhpCsFixer\FixerConfiguration\InvalidOptionsForEnvException::class,
         \PhpCsFixer\FixerFileProcessedEvent::class,
-        \PhpCsFixer\Indicator\PhpUnitIndicator::class,
         \PhpCsFixer\Linter\ProcessLintingResult::class,
         \PhpCsFixer\Linter\TokenizerLintingResult::class,
         \PhpCsFixer\Report\ReportSummary::class,

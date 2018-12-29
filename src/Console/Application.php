@@ -54,7 +54,6 @@ final class Application extends BaseApplication
 
         $this->toolInfo = new ToolInfo();
 
-        $this->add(new ShowCommand($this->toolInfo));
         $this->add(new DescribeCommand());
         $this->add(new FixCommand($this->toolInfo));
         $this->add(new ReadmeCommand());
@@ -63,6 +62,7 @@ final class Application extends BaseApplication
             $this->toolInfo,
             new PharChecker()
         ));
+        $this->add(new ShowCommand($this->toolInfo));
     }
 
     /**
